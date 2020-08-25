@@ -1,0 +1,29 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>
+        jQuery Data demo
+    </h1>
+    <input type="button" id="justPrint" value="Just Print" />
+    <input type="button" id="TablePrint" value="Table Print" />
+    <div id="container" style="height: 300px"></div>
+    <p>
+    </p>
+</div>
+
+<canvas id="line-chart" width="800" height="450"></canvas>
+<canvas id="bar-chart-grouped" width="800" height="450"></canvas>
+<canvas id="myChart"></canvas>
+<div id="jsonData"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
